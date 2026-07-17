@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PROSKILL IT Technologies - India's Top 1 Training & Placement Institute. Get certified in Full Stack Development, Data Science, AWS DevOps, and Software Testing. Offices in Hyderabad & Bangalore.">
+    <meta name="description" content="PROSKILL IT Technologies - India's Top 1 Training & Placement Institute. Get certified in Full Stack Development, Data Science, AWS DevOps, and Software Testing. Campuses in Hyderabad (Ameerpet) & Bangalore.">
     <title>PROSKILL IT Technologies | India's #1 Training & Placement Institute</title>
     
     <!-- Google Fonts -->
@@ -23,7 +23,22 @@
     <header class="navbar-header" id="header">
         <div class="nav-container">
             <a href="#" class="logo" id="nav-logo">
-                <span class="logo-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+                <!-- Custom SVG Logo -->
+                <svg width="34" height="34" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-svg" style="margin-right: 2px;">
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#1e3a8a" />
+                            <stop offset="100%" stop-color="#2563eb" />
+                        </linearGradient>
+                    </defs>
+                    <!-- Outer Hexagon Badge -->
+                    <path d="M16 2L28 9V23L16 30L4 23V9L16 2Z" fill="url(#logoGrad)" />
+                    <!-- Stylized Graduation Cap inside -->
+                    <path d="M16 8L24 12L16 16L8 12L16 8Z" fill="#ffffff" />
+                    <path d="M11 14.5V19.5C11 22 13.5 23.5 16 23.5C18.5 23.5 21 22 21 19.5V14.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+                    <!-- Emerald Tassel -->
+                    <path d="M22 13V17.5L23.5 19.5" stroke="#10b981" stroke-width="2" stroke-linecap="round" />
+                </svg>
                 <span class="logo-text">PROSKILL <span class="accent-text">IT</span></span>
             </a>
             
@@ -58,13 +73,13 @@
         <div class="container hero-container">
             <div class="hero-content">
                 <div class="badge-container">
-                    <span class="hero-badge"><i class="fa-solid fa-award"></i> India's #1 Training & Placement Institute</span>
+                    <span class="hero-badge"><i class="fa-solid fa-award"></i> India's #1 IT Career Accelerator</span>
                 </div>
                 <h1 class="hero-title">
-                    Supercharge Your IT Career with <span class="gradient-text">PROSKILL IT</span>
+                    Build Real Skills. Get <span class="gradient-text">Hired by Top MNCs</span>
                 </h1>
                 <p class="hero-subtitle">
-                    Master industry-demanded tech skills under the guidance of experts. Access intensive training, hands-on capstone projects, and 100% placement support in Hyderabad & Bangalore.
+                    India's leading Training & Placement Institute. Access classroom labs in Hyderabad (Ameerpet) & Bangalore, or join live interactive online sessions. Complete with hands-on projects, industry certifications, and 100% placement support.
                 </p>
                 <div class="hero-ctas">
                     <a href="#courses" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> Explore Programs</a>
@@ -177,26 +192,59 @@
                     <div class="feature-card glass-panel">
                         <div class="feat-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
                         <div class="feat-content">
-                            <h4>Expert Mentors</h4>
-                            <p>Learn from certified industry professionals with over 10+ years of active development experience.</p>
+                            <h4>Industry-Aligned Faculty</h4>
+                            <p>Learn from certified architects and senior developers with over 10+ years of active development experience in global MNCs.</p>
                         </div>
                     </div>
                     
                     <div class="feature-card glass-panel">
                         <div class="feat-icon"><i class="fa-solid fa-laptop-code"></i></div>
                         <div class="feat-content">
-                            <h4>Real-world Capstones</h4>
-                            <p>Build professional portfolios with live project deployments, API designs, and Git version control.</p>
+                            <h4>24/7 Digital Lab Access</h4>
+                            <p>Build professional portfolios with live project deployments, API designs, sandboxed environments, and Git pipelines.</p>
                         </div>
                     </div>
                     
                     <div class="feature-card glass-panel">
                         <div class="feat-icon"><i class="fa-solid fa-user-tie"></i></div>
                         <div class="feat-content">
-                            <h4>Mock Interviews & Resume Prep</h4>
-                            <p>Participate in periodic technical assessments, soft-skills workshops, and structured mock interviews.</p>
+                            <h4>Structured Mock Interviews</h4>
+                            <p>Participate in periodic technical code challenges, soft-skills workshops, and mock interview drives matching corporate standards.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industry Benchmark Highlights -->
+    <section class="courses-section" style="padding: 4rem 0 2rem 0; background: #ffffff;">
+        <div class="container">
+            <div class="section-header" style="margin-bottom: 2.5rem;">
+                <span class="section-tag">Why Choose Us</span>
+                <h2 class="section-title">The PROSKILL IT Difference</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="partner-logos-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem;">
+                <div class="logo-item" style="padding: 1.5rem; text-align: left; align-items: flex-start;">
+                    <i class="fa-solid fa-school" style="font-size: 1.8rem; margin-bottom: 0.5rem;"></i>
+                    <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem; color: var(--text-primary);">Classroom & Online</h4>
+                    <p style="font-size: 0.85rem; color: var(--text-secondary); font-weight: normal;">Attend physical classrooms in Hyderabad or Bangalore, or stream live interactive sessions online.</p>
+                </div>
+                <div class="logo-item" style="padding: 1.5rem; text-align: left; align-items: flex-start;">
+                    <i class="fa-solid fa-certificate" style="font-size: 1.8rem; margin-bottom: 0.5rem;"></i>
+                    <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem; color: var(--text-primary);">Official Prep</h4>
+                    <p style="font-size: 0.85rem; color: var(--text-secondary); font-weight: normal;">Aligned with global certifications including AWS, Oracle Java, Salesforce, and ISTQB.</p>
+                </div>
+                <div class="logo-item" style="padding: 1.5rem; text-align: left; align-items: flex-start;">
+                    <i class="fa-solid fa-id-card-clip" style="font-size: 1.8rem; margin-bottom: 0.5rem;"></i>
+                    <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem; color: var(--text-primary);">Dedicated Placement Cell</h4>
+                    <p style="font-size: 0.85rem; color: var(--text-secondary); font-weight: normal;">Active hiring pipelines, resume parsing checks, direct interview scheduling, and alumni networking.</p>
+                </div>
+                <div class="logo-item" style="padding: 1.5rem; text-align: left; align-items: flex-start;">
+                    <i class="fa-solid fa-people-group" style="font-size: 1.8rem; margin-bottom: 0.5rem;"></i>
+                    <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem; color: var(--text-primary);">Custom Freshers Batch</h4>
+                    <p style="font-size: 0.85rem; color: var(--text-secondary); font-weight: normal;">Specialized modules for graduates, focusing on aptitude, coding foundations, and interview preparedness.</p>
                 </div>
             </div>
         </div>
@@ -539,8 +587,20 @@
         <div class="container footer-container">
             <div class="footer-brand">
                 <a href="#" class="logo">
-                    <span class="logo-icon"><i class="fa-solid fa-graduation-cap"></i></span>
-                    <span class="logo-text">PROSKILL <span class="accent-text">IT</span></span>
+                    <!-- Footer SVG Logo -->
+                    <svg width="34" height="34" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-svg" style="margin-right: 2px;">
+                        <defs>
+                            <linearGradient id="logoGradFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#3b82f6" />
+                                <stop offset="100%" stop-color="#60a5fa" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M16 2L28 9V23L16 30L4 23V9L16 2Z" fill="url(#logoGradFooter)" />
+                        <path d="M16 8L24 12L16 16L8 12L16 8Z" fill="#0f172a" />
+                        <path d="M11 14.5V19.5C11 22 13.5 23.5 16 23.5C18.5 23.5 21 22 21 19.5V14.5" stroke="#0f172a" stroke-width="2" stroke-linecap="round" />
+                        <path d="M22 13V17.5L23.5 19.5" stroke="#10b981" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                    <span class="logo-text">PROSKILL <span class="accent-text" style="color: #60a5fa;">IT</span></span>
                 </a>
                 <p class="footer-desc">
                     Top 1 Training & Placement institute in India, offering practical, mentor-driven education in leading technologies. Accelerate your career growth today.
